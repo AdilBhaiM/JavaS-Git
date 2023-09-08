@@ -229,7 +229,7 @@
 
 // let array1 = ["ironman", "superman", "spiderman"]
 // let array2 = array1.slice(0);
-// // let array2 = [].concat(array1);
+// let array2 = [].concat(array1);
 // let array2 = [...array1]
 // array1.push("CaptainAmerica");
 // console.log(array1);
@@ -252,7 +252,6 @@
 
 
 // let j = 0;
-
 // while(j<=fruits.length-1){
 //     console.log(fruits[j]);
 //     j++;
