@@ -71,3 +71,11 @@
 // }
 
 
+// Functions
+
+// function sumOfThisNum(number1, number2){
+//     return number1 + number2;
+// }
+
+// const returnedResult = sumOfThisNum(3343,572)
+// console.log(returnedResult);
