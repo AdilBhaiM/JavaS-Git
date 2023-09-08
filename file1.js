@@ -251,8 +251,8 @@
 // }
 
 
-// let j = 0;
 // while(j<=fruits.length-1){
+// let j = 0;
 //     console.log(fruits[j]);
 //     j++;
 // }

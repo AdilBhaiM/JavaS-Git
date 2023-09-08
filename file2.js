@@ -55,3 +55,19 @@
 // let { name, age, ...rst} = AboutMe;
 // console.log(name);
 // console.log(rst);
+
+
+// const users = [
+//     {ID: 1,firstName: 'Adil',lastName: 'Anwar',Gender: 'male'},
+//     {ID: 2,firstName: 'Farheen',lastName: 'Anwar',Gender: 'Female'},
+//     {ID: 3,firstName: 'Sehar',lastName: 'Anwar',Gender: 'Female'}
+// ]
+
+// const [, ,{firstName}] = users;
+// console.log(firstName);
+
+// for(let user of users){
+//     console.log(user);
+// }
+
+
