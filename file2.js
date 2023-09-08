@@ -79,3 +79,25 @@
 
 // const returnedResult = sumOfThisNum(3343,572)
 // console.log(returnedResult);
+
+// function resultOfCal(num){
+//     return num % 2 === 0;
+// }
+
+// console.log(resultOfCal(7))
+
+// function FirstChar(string){
+//     return string[3];
+// }
+
+// console.log(FirstChar("ADIL"));
+
+function stringindex(array, target){
+    for(let i=0;i<array.length;i++){
+        if(array[i]===target)
+        return i;
+    }
+    return -1;
+}
+const myArray = [3,5,7,35]
+console.log(stringindex(myArray,35));
