@@ -278,3 +278,68 @@
 // })
 // console.log(values);
 // For decending orders, we can use b-a in return
+
+
+// Find method
+
+// const users = [
+//     {userId: 1, Name: "Adil"},
+//     {userId: 2, Name: "Farheen"},
+//     {userId: 3, Name: "Sehar"},
+//     {userId: 4, Name: "AbdulRehman"}
+// ]
+
+// const MyUsers = users.find((user)=>user.userId===3);
+// console.log(MyUsers);
+
+
+// Every method
+
+// const numbers = [2,3,4,5,6,7,8,9,10];
+// const forResult = numbers.every((number)=>number%2===0);
+// console.log(forResult);
+
+// Real life example
+
+// const users = [
+//     {userId: 1, price: 7000},
+//     {userId: 2, price: 30770},
+//     {userId: 3, price: 3500},
+//     {userId: 4, price: 23450}
+// ]
+
+// const myUser = users.every((user)=>{
+//     return user.price<40000
+// })
+// console.log(myUser);
+
+
+// Some Method
+
+// const users = [
+//     {userId: 1, price: 7000},
+//     {userId: 2, price: 30770},
+//     {userId: 3, price: 3500},
+//     {userId: 4, price: 23450}
+// ]
+
+// const myUser = users.some((user)=>{
+//     return user.price < 40000
+// })
+// console.log(myUser);
+
+
+// Fill Method
+
+// const myArray = [1,2,3,4,5,6,7,8];
+// myArray.fill(0, 4, 7);
+// console.log(myArray);
+
+// Splice Method
+
+// const myArray = ['item1', 'item2', 'item3'];
+
+// const deletedItem = myArray.splice(1, 2, "inserted item1", "inserted item2")
+
+// console.log("deled items", deletedItem);
+// console.log(myArray);

@@ -1,6 +1,6 @@
 // let firstName = "adil";
 // firstName = "anwar";
-// console .log(firstName);
+// console .log(firstName);// compalsory to overwrite.
 
 // var myName = "mister";
 // var myName = "adil";
@@ -24,15 +24,19 @@
 // console.log(values.length);
 
 // let values = "adil anwar";                                           
-// console.log(values[4]);         // let forUpper = "adil anwar";  
-                                   // forUpper = forUpper.toUpperCase();
-// let values = "adil anwar";      // console.log(forUpper.toUpperCase());
+// console.log(values[4]);           
+//                                  
+// let values = "adil anwar";       
 // console.log(values[7]);
+
+// let forUpper = "adil anwar";
+// forUpper = forUpper.toUpperCase();
+// console.log(forUpper);
 
 // let forUpper = "adil anwar";
 // console.log(forUpper.toUpperCase());
 
-// let forUpper = "Adil Anwar";
+// let forLower = "Adil Anwar";
 // console.log(forUpper.toLowerCase());
 
 // start index
@@ -57,7 +61,7 @@
 
 // let string = "56";
 // string = Number(56);
-// console.log(string);
+// console.log(typeof string);
 
 // let string1 = "Adil";
 // let string2 = "Malik";
@@ -75,24 +79,28 @@
 // let age = "17";
 
 // let aboutMe = `My anme is ${name} and my age is ${age}`;
-// console.log(aboutMe)
+// console.log(aboutMe);
 
 // let winningNumber = 20;
 // let userGuess = +prompt("guess a number");
 
+// console.log(`Are your sure that your guess is ${userGuess}!!!`);
+
 // if(userGuess === winningNumber){
-// console.log("You win");
+//      console.log("You win");
 // }else{
 //     if(userGuess <= 10){
+//         console.log("No!")
 //         console.log("Your Guess is too Low.");
 //     }
 //     if(userGuess >= 30){
+//         console.log("No!")
 //         console.log("Your Gues is too High.");
 //     }
 // }
-// console.log(typeof userGuess, userGuess);
 
-// let day = 5;
+
+// let day = 0;
 
 // switch (day){
 //     case 0:
@@ -100,7 +108,7 @@
 //         break;
 //     case 1:
 //         console.log("Monday");
-//         break
+//         break;
 //     case 2:
 //         console.log("Tuesday");
 //         break;
@@ -249,22 +257,20 @@
 // for(let i=0; i < fruits.length;i++){
 //     console.log(fruits[i])
 // }
-
-
+//  let j = 0;
 // while(j<=fruits.length-1){
-// let j = 0;
 //     console.log(fruits[j]);
 //     j++;
 // }
 
 // const fruits = ["Apple", "Mangos", "Graps", "pineapple"];
 // for(let fruit of fruits){
-//     console.log(fruit)
+//     console.log(fruit);
 // }
 
 
 // const fruits = ["Apple", "Mangos", "Graps", "pineapple"];
-// let [newArray, myNewArray, ...restOfTheArray] = fruits
-// console.log(newArray)
-// console.log(myNewArray)
-// console.log(restOfTheArray)
+// let [newArray, myNewArray, ...restOfTheArray] = fruits;
+// console.log(newArray);
+// console.log(myNewArray);
+// console.log(restOfTheArray);
