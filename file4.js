@@ -222,25 +222,46 @@
 // Is me ham aik value ke set krna k bad uski value ko change kr k alehda se print krna sikhien ga..
 
 
-class Person{
-    constructor(firstName, lastName, age){
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.age = age;
-    }
-    get fullName(){
-        return `${this.firstName} ${this.lastName}`
-    }
-    set fullName(fullName){
-        const [firstName, lastName] = fullName.split(" ");
-        this.firstName = firstName;
-        this.lastName = lastName;
-    }
-}
+// class Person{
+//     constructor(firstName, lastName, age){
+//         this.firstName = firstName;
+//         this.lastName = lastName;
+//         this.age = age;
+//     }
+//     get fullName(){
+//         return `${this.firstName} ${this.lastName}`
+//     }
+//     set fullName(fullName){
+//         const [firstName, lastName] = fullName.split(" ");
+//         this.firstName = firstName;
+//         this.lastName = lastName;
+//     }
+// }
 
 
-const person1 = new Person("harshit", "sharma", 5);
-console.log(person1.fullName);
-console.log(person1.fullName);
-person1.fullName = "mohit vashistha";
-console.log(person1);
+// const person1 = new Person("harshit", "sharma", 5);
+// console.log(person1.fullName);
+// console.log(person1.fullName);
+// person1.fullName = "mohit vashistha";
+// console.log(person1);
+ 
+
+
+
+
+////////////////////////////////////////// How do JavaScript work? ////////////////////////////////////////////
+
+
+// Code likkhna ke bad hmara code pehla memory me store hota ha or phir wo global memory me store hona ke bad execute hota ha.
+// Execute bhi sequence se hi hota ha.
+// Agar koi Error ho code me to wo koi bhi code execute ni krta bs wo error show kr deta ha.
+
+
+// JavaScript wase to asl me sychronus hoti ha pr us ko Asynchronus browser bnata ha uski synchronus nature ka mtlb ha k javascript sb se pehla wale code ko create krta ha or jb tk wo execute na ho jay dosra code tk wo ni pohnchta isi lya ye synchronous ha pr browser isko Asynchronous bnata ha wo kia ha???...Ye ham Asynch Nature Topic me dekhien ga.
+
+
+// Hoisting....
+
+// jb code create hota ha to wo pehla global memory me store hota ha or phir hi bad me uski global execution ke doran value set hoti ha.
+
+//
