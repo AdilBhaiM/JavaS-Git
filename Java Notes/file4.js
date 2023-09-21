@@ -288,7 +288,8 @@
 // jb hm kisi function ko aik function ke andr return krta hain to phir wo apna parent function ki values or apna ilawa baki chezien jo function me hain unki value bhi apni memory me store kr leta ha...
 
 
-// Example__1
+
+// Example__1:
 
 // function myfunc(){
 //     let num = 1;
@@ -307,15 +308,30 @@
 // func();
 
 
-// Example__2
 
-function myfunc(firstName, lastName){
-    function insidefunc(){
-        let fulName = firstName + " " + lastName;
-        console.log(fulName);
-    }
-    return insidefunc;
-}
+// Example__2:
 
-const forPrint = myfunc("Adil", "Anwar");
-forPrint();
+// function myfunc(firstName, lastName){
+//     function insidefunc(){
+//         let fulName = firstName + " " + lastName;
+//         console.log(fulName);
+//     }
+//     return insidefunc;
+// }
+
+// const forPrint = myfunc("Adil", "Anwar");
+// forPrint();
+
+
+
+
+// Practical Project Start
+
+// Webpage by using HTML n CSS....
+
+
+
+
+///////////////////////////////////////////////// Dom ////////////////////////////////////////////////
+
+
