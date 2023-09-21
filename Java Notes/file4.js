@@ -249,7 +249,7 @@
 
 
 
-////////////////////////////////////////// How do JavaScript work? ////////////////////////////////////////////
+//////////////////////////////////////// How do JavaScript work? ////////////////////////////////////////////
 
 
 // Code likkhna ke bad hmara code pehla memory me store hota ha or phir wo global memory me store hona ke bad execute hota ha.
@@ -264,4 +264,58 @@
 
 // jb code create hota ha to wo pehla global memory me store hota ha or phir hi bad me uski global execution ke doran value set hoti ha.
 
-//
+
+
+// Function execution context
+
+// jb function call krta han to hmara code global execution context nahi rehta.. Wo function execution context pe shift ho jata ha
+// is me bhi do kam hota han ...aik code execution or dosra Local memory creation.
+
+
+
+
+// Lexical Scope/Lexical Environment
+
+// Agr koi cheez hm aik function me print krien mgr wo us function se bahir kisi variablle me store hoi hoi ha to phir wo print ho jay gi kun k phir ka lexical scope function k bahir wala environment ho ga..
+
+
+
+
+
+
+// Closures
+
+// jb hm kisi function ko aik function ke andr return krta hain to phir wo apna parent function ki values or apna ilawa baki chezien jo function me hain unki value bhi apni memory me store kr leta ha...
+
+
+// Example__1
+
+// function myfunc(){
+//     let num = 1;
+//     return function(){
+//         if(num <= 1){
+//             console.log("apne ne mujhe print kya ha..");
+//             num++;
+//         }else{
+//             console.log("me print ho chuka hon...")
+//         }
+//     }
+// }
+// const func = myfunc();
+// func();
+// func();
+// func();
+
+
+// Example__2
+
+function myfunc(firstName, lastName){
+    function insidefunc(){
+        let fulName = firstName + " " + lastName;
+        console.log(fulName);
+    }
+    return insidefunc;
+}
+
+const forPrint = myfunc("Adil", "Anwar");
+forPrint();
