@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* ///////////////////navigation bar//////////////// */
+
+header{
+    height: 140vh;
+    background: url(./img/redish\ dogy.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navii{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.3em 0;
+}
+
+.logoNbtns{
+    display: flex;
+    justify-content: space-between;
+    width: 1150px;
+}
+
+.logoNbtns .logoo{
+    font-size: 3.2rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: aliceblue;
+    transition: all 0.2s ease-in-out;
+}
+
+.logoNbtns .logoo:hover{
+    font-size: 3.5rem;
+}
+
+.logoNbtns .btns{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    font-size: 1.15rem;
+    font-weight: 400;
+    width: 360px;
+    list-style: none;
+}
+
+/* .btns .nav-items{
+    height: 50px
+} */
+
+.btns .nav-items{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.btns .itm1{
+    width: 20%;
+}
+
+.btns .itm2{
+    margin-left: 1em;
+    width: 38%;
+}
+
+.btns .itm3{
+    width: 25%;
+}
+
+.btns .nav-items a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: aliceblue;
+    top: 25%;
+    transition: top 0.2s ease-in-out;
+
+}
+
+.btns .nav-items:hover a{
+    position: absolute;
+    font-size: 1.2rem;
+    top: 20%;
+}
+
+.navii .signInBtn{
+    display: flex;
+    align-items: center;
+    width: 200px;
+}
+
+.signInBtn a{
+    text-decoration: none;
+    border: 2px solid rgb(255, 47, 47);
+    border-radius: 100em;
+    width: 100%;
+    color: aliceblue;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2.2rem;
+    margin: 0 auto;
+    transition: all 0.2s ease-in-out;
+}
+
+.signInBtn a:hover{
+    background-image: radial-gradient( circle 905.6px at 4.9% 7.9%,  rgba(218,0,0,1) 14.1%, rgba(168,2,144,1) 65%, rgba(102,2,110,1) 90% );
+    border: none;
+    color: aliceblue;
+    font-size: 1.8rem;
+}
+
+
+/* ///////////////////////////Centre Content/////////////////////////// */
+*,*::after, *::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.head{
+    margin: 1em 8em;
+    padding: 8em 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.head .imgs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 5em;
+}
+
+.imgs .img-box{
+    width: 700px;
+    height: 400px;
+    position: relative;
+    margin: 1em 1em;
+    box-shadow: 0px 0px 16px 2px rgb(36, 36, 36);
+    opacity: 20%;
+    transition: all 0.2s ease-in-out;
+}
+
+.imgs .img-box:hover{
+    opacity: 100%;
+}
+
+.imgs .img3,.imgs .img4{
+    height: 450px;
+}
+
+.img-box img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.content1{
+    position: absolute;
+    top: 100%;
+    right: 40%;
+    width: 500px;
+    opacity: 0;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    transition: all 0.5s ease-in-out;
+}
+
+.content2{
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    width: 500px;
+    opacity: 0;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    transition: all 0.5s ease-in-out;
+}
+
+.content3{
+    position: absolute;
+    bottom: 50%;
+    right: 16%;
+    width: 500px;
+    opacity: 0;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    transition: all 0.5s ease-in-out;
+}
+
+.content4{
+    position: absolute;
+    bottom: 70%;
+    left: 100%;
+    width: 500px;
+    opacity: 0;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    transition: all 0.5s ease-in-out;
+}
+
+.content h2{
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.content a{
+    padding: 1em 1.4em;
+    margin-top: 1em;
+    display: inline-block;
+    text-decoration: none;
+    /* background-color: rgb(236, 0, 130); */
+    color: #fff;
+    border: 2px solid rgb(255, 29, 29);
+    border-radius: 4em;
+}
+
+.content a:hover{
+    background-image: radial-gradient( circle 905.6px at 4.9% 7.9%,  rgba(218,0,0,1) 14.1%, rgba(168,2,144,1) 65%, rgba(102,2,110,1) 90% );
+    border: none;
+}
+
+.img-box::after{
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(7, 7, 7, 0.34);
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.6s ease-in-out;
+}
+
+.img-box:hover::after{
+    opacity: 1;
+}
+
+.img-box:hover .content1{
+    opacity: 1;
+    top: 50%;
+    right: -20%;
+}
+
+.img-box:hover .content2{
+    opacity: 1;
+    top: 50%;
+    left: 50%;
+}
+
+.img-box:hover .content3{
+    opacity: 1;
+    bottom: 25%;
+    right: -20%;
+}
+
+.img-box:hover .content4{
+    opacity: 1;
+    bottom: 30%;
+    left: 50%;
+}
+
+/* ****************************************************************footer********************************************************* */
+
+
+.for-text{
+    text-align: center;
+    word-spacing: 0.5em;
+    padding-top: 1em;
+    color: white;
+    margin: 1em 0;
+    height: 100%;
+}
+
+.for-text .last-word{
+    font-weight: 300;
+    margin-top: .5em;
+}
+
+.for-text .sm-links{
+    word-spacing: 1em;
+    padding-bottom: 0.3em;
+    
+}
+
+.sm-links a{
+    color: white;
+    display: inline-block;
+
+}
+
+.real-foot{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,7,7,1) 0%, rgba(255,41,41,1) 100.7% );
+    height: 125px;
+    border: 1px solid black;
+}
