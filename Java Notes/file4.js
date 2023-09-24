@@ -321,17 +321,3 @@
 
 // const forPrint = myfunc("Adil", "Anwar");
 // forPrint();
-
-
-
-
-// Practical Project Start
-
-// Webpage by using HTML n CSS....
-
-
-
-
-///////////////////////////////////////////////// Dom ////////////////////////////////////////////////
-
-
