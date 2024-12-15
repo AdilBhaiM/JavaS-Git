@@ -100,33 +100,36 @@
 // }
 
 
-// let day = 0;
+let day = prompt("Choose a number between 1 to 6");
+day = Number.parseInt(day)
+switch (day){
+    case 1:
+        console.log("Sunday");
+        break;
+    case 2:
+        console.log("Monday");
+        break;
+    case 3:
+        console.log("Tuesday");
+        break;
+    case 4:
+        console.log("Wednesday");
+        break;
+    case 5:
+        console.log("Thursday");
+        break;
+    case 6:
+        console.log("Friday");
+        break;
+    case 7:
+        console.log("Saturday");
+        break;
+    default:
+        console.log("You are dead");
+}
 
-// switch (day){
-//     case 0:
-//         console.log("Sunday");
-//         break;
-//     case 1:
-//         console.log("Monday");
-//         break;
-//     case 2:
-//         console.log("Tuesday");
-//         break;
-//     case 3:
-//         console.log("Wednesday");
-//         break;
-//     case 4:
-//         console.log("Thursday");
-//         break;
-//     case 5:
-//         console.log("Friday");
-//         break;
-//     case 6:
-//         console.log("Saturday");
-//         break;
-//     default:
-//         console.log("You are dead");
-// }
+
+
 
 // let j = 0;
 
